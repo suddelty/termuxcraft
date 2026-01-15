@@ -40,7 +40,7 @@ echo -e " $Green     ||                                                         
 echo -e " $Green     ||             $Purple==>$Yellow[1] Minecraft Version 1.15.2 - 4GB / 8GB / 12GB RAM$Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[2] Minecraft Version 1.16.5 - 8GB RAM (Unstable version)$Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[3] Minecraft Version 1.19.2 - 8GB RAM (Unstable version)$Green                    "
-echo -e " $Green     ||             $Purple==>$Yellow  $Green                    "
+echo -e " $Green     ||             $Purple==>$Yellow[4] Minecraft Version 1.21.10 - 3GB RAM (Unstable version)$Green                    "
 echo -e " $Green     ||             $Purple==>$Yellow[000] Reset/Update Launcher$Green                                           "
 echo -e " $Green     ||                                                                   "                                                                                       
 echo -e " $Green     ||---------------------------$Cyan [select option] $Green-----------------------||"
@@ -72,6 +72,15 @@ git clone https://github.com/drmatoi/minecraft
 cd minecraft
 chmod +x betalauncher1.19.2.sh
 ./betalauncher1.19.2.sh
+     
+        exit
+
+elif [ $ch -eq 4 ];then
+ pkg install git
+git clone https://github.com/drmatoi/minecraft
+cd minecraft
+chmod +x betalauncher1.21.10.sh
+./betalauncher1.21.10.sh
      
         exit
 
