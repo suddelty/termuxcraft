@@ -53,11 +53,11 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        pkg install openjdk-21
+        pkg install openjdk-21 -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install openssh
+pkg install openssh -y
 
 sshd
 

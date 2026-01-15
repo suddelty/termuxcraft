@@ -50,7 +50,7 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        pkg install git
+        pkg install git -y
 git clone https://github.com/suddelty/termuxcraft
 cd termuxcraft
 chmod +x launcher.sh
@@ -58,7 +58,7 @@ chmod +x launcher.sh
         exit
     
     elif [ $ch -eq 2 ];then
- pkg install git
+ pkg install git -y
 git clone https://github.com/suddelty/termuxcraft
 cd termuxcraft
 chmod +x betalauncher1.16.5.sh
@@ -67,7 +67,7 @@ chmod +x betalauncher1.16.5.sh
         exit
 
 elif [ $ch -eq 3 ];then
- pkg install git
+ pkg install git -y
 git clone https://github.com/suddelty/termuxcraft
 cd termuxcraft
 chmod +x betalauncher1.19.2.sh
@@ -76,7 +76,7 @@ chmod +x betalauncher1.19.2.sh
         exit
 
 elif [ $ch -eq 4 ];then
- pkg install git
+ pkg install git -y
 git clone https://github.com/suddelty/termuxcraft
 cd termuxcraft
 chmod +x betalauncher1.21.10.sh

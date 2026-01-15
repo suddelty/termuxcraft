@@ -58,11 +58,11 @@ echo " "
 
     read ch
    if [ $ch -eq 1 ];then
-        pkg install openjdk-17
+        pkg install openjdk-17 -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install openssh
+pkg install openssh -y  
 
 sshd
 
@@ -84,11 +84,11 @@ java -Xmx4G -Xms4G -jar server.jar nogui
 
         exit
     elif [ $ch -eq 2 ];then 
-    pkg install openjdk-17
+    pkg install openjdk-17 -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install openssh
+pkg install openssh -y
 
 sshd
 
@@ -111,11 +111,11 @@ java -Xmx8G -Xms8G -jar server.jar nogui
 exit
 
     elif [ $ch -eq 3 ];then
-        pkg install openjdk-17
+        pkg install openjdk-17 -y
 
-pkg install wget
+pkg install wget -y
 
-pkg install openssh
+pkg install openssh -y  
 
 sshd
 
