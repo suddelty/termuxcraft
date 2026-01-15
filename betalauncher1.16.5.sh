@@ -83,7 +83,7 @@ java -Xmx8G -Xms8G -jar server.jar nogui
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x betalauncher1.16.5.sh
 ./betalauncher1.16.5.sh
      

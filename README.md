@@ -9,13 +9,13 @@ This script requires Termux (Updated F-Droid Version) Download: https://f-droid.
 Copy paste this into Termux
 * `pkg install git`
 * `git clone https://github.com/suddelty/termuxcraft`
-* `cd minecraft`
+* `cd termuxcraft`
 * `chmod +x START.sh`
 * `./START.sh`
 * This is the fastest way!
 ## Launcher already installed?
 Open it with:
-* `cd minecraft`
+* `cd termuxcraft`
 * `chmod +x START.sh`
 * `./START.sh`
 
@@ -83,7 +83,7 @@ The server is online as long as: The device on which it is running is connected 
 ## Need to Update/Reset the Launcher.
 * `rm -rf minecraft`
 * `git clone https://github.com/suddelty/termuxcraft`
-* `cd minecraft`
+* `cd termuxcraft`
 * `chmod +x launcher.sh`
 * `./launcher.sh`
 <br>

@@ -52,7 +52,7 @@ echo " "
    if [ $ch -eq 1 ];then
         pkg install git
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x launcher.sh
 ./launcher.sh
         exit
@@ -60,7 +60,7 @@ chmod +x launcher.sh
     elif [ $ch -eq 2 ];then
  pkg install git
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x betalauncher1.16.5.sh
 ./betalauncher1.16.5.sh
      
@@ -69,7 +69,7 @@ chmod +x betalauncher1.16.5.sh
 elif [ $ch -eq 3 ];then
  pkg install git
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x betalauncher1.19.2.sh
 ./betalauncher1.19.2.sh
      
@@ -78,7 +78,7 @@ chmod +x betalauncher1.19.2.sh
 elif [ $ch -eq 4 ];then
  pkg install git
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x betalauncher1.21.10.sh
 ./betalauncher1.21.10.sh
      
@@ -87,7 +87,7 @@ chmod +x betalauncher1.21.10.sh
    elif [ $ch -eq 000 ];then
  rm -rf minecraft
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x START.sh
 ./START.sh
      

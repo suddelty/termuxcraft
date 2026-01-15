@@ -138,7 +138,7 @@ java -Xmx12G -Xms12G -jar server.jar nogui
         exit
     elif [ $ch -eq 4 ];then
        xdg-open https://www.dein-ip-check.de/
-       cd minecraft
+       cd termuxcraft
 chmod +x launcher.sh
 ./launcher.sh 
 
@@ -147,7 +147,7 @@ chmod +x launcher.sh
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
 git clone https://github.com/suddelty/termuxcraft
-cd minecraft
+cd termuxcraft
 chmod +x launcher.sh
 ./launcher.sh
      
@@ -160,7 +160,7 @@ chmod +x launcher.sh
 
 elif [ $ch -eq 9 ];then
         xdg-open https://t.me/drmatoi
-       cd minecraft
+       cd termuxcraft
 chmod +x launcher.sh
 ./launcher.sh
 
