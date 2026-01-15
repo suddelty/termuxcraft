@@ -82,7 +82,7 @@ java -Xmx3G -Xms3G -jar server.jar nogui
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/suddelty/termuxcraft
 cd minecraft
 chmod +x betalauncher1.21.10.sh
 ./betalauncher1.21.10.sh

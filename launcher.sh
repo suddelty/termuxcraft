@@ -146,7 +146,7 @@ chmod +x launcher.sh
     
    elif [ $ch -eq 999 ];then
  rm -rf minecraft
-git clone https://github.com/drmatoi/minecraft
+git clone https://github.com/suddelty/termuxcraft
 cd minecraft
 chmod +x launcher.sh
 ./launcher.sh
